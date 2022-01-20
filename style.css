@@ -1,0 +1,494 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Jost', sans-serif;
+}
+
+
+/* appy for all section */
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+
+/* appy for all section end*/
+
+#home {
+    background-color: #37517e;
+    height: 100 vh;
+}
+
+.navbar {
+    background-color: rgb(41, 60, 93);
+    opacity: .7;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.navbar .nav-item {
+    margin: 0 10px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+}
+
+.navbar .nav-item .nav-link .btn {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+#hero {
+    background-color: #37517e;
+}
+
+.btn {
+    color: white;
+    border-radius: 30px;
+}
+
+.play_demu {
+    font-size: 23px;
+    font-weight: 300px;
+}
+
+.btn_play {
+    margin-top: 50px;
+}
+
+
+/* client section style here */
+
+.client {
+    overflow: hidden;
+    background-color: #f3f5fa;
+    padding: 20px;
+}
+
+
+/* client section style end here */
+
+
+/* about section style Start here */
+
+#about {
+    background-color: white;
+}
+
+#about h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #37517e;
+    text-transform: uppercase;
+}
+
+#about h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+#about h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+
+/* about section style end here */
+
+ul {
+    list-style: none;
+}
+
+
+/* why_choose us section style Start here */
+
+.why_choose_us {
+    background-color: #f3f5fa;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.why_choose_us .content h2 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #37517e;
+}
+
+.accordion-item,
+.accordion-header {
+    padding: 2px;
+    background: transparent !important;
+    border: none !important;
+    margin-bottom: 2px;
+}
+
+.accordion-header span {
+    color: #47b2e4;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+
+/* 
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+    color: #47b2e4;
+}
+
+.accordion-button:hover {
+    color: #47b2e4;
+} */
+
+
+/* why_choose us section style End here */
+
+
+/* Skills section style Start here */
+
+.skill_img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Skills section style End here */
+
+
+/* Service sectoin start here */
+
+.service_sec {
+    background-color: #f3f5fa;
+}
+
+.section_title {
+    text-align: center;
+}
+
+.section_title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section_title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.icon_box {
+    text-align: left;
+    color: #47b2e4;
+    font-size: 36px;
+    transition: ease-in-out 0.3s;
+}
+
+.card {
+    padding: 10px;
+    min-height: 300px;
+}
+
+.full_card :hover {
+    transform: translateY(-10px);
+}
+
+
+}
+
+/* Service sectoin End here */
+
+/* C2A section style Start */
+#cta {
+    background-color: purple;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.edt_btn {
+    text-align: center;
+    padding: 50px;
+}
+
+/* C2A section style End  */
+
+/* portfolio section style start here */
+.portfolio_sec {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.section_title h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #37517e;
+    text-transform: uppercase;
+}
+.section_title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ddd;
+    bottom: 1px;
+    left: 20px;
+}
+.section_title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 30px;
+    background: #47b2e4;
+    bottom: 0;
+    left: 3px;
+}
+
+/* /* portfolio section style start here * */
+.portfolio_sec #portfolio_flters {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.portfolio_sec #portfolio_flters li {
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    transition: all 0.3s;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.portfolio_sec #portfolio_flters li:hover,
+.portfolio_sec #portfolio_flters li.filter_active {
+    background: #47b2e4;
+    color: #fff;
+}
+
+/* /* portfolio section style End here * */
+
+/* Team section style start here  */
+.team_section {
+    background-color: #f3f5fa;
+}
+
+/* .team_section .team {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+} */
+.tm {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    width: 47%;
+    margin-right: 20px;
+}
+.team_section .team .member {
+    overflow: hidden;
+    width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.team_section .team .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+.social {}
+a {
+    color: #47b2e4;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Team section style End here  */
+
+/* pricing style section start here */
+.price .row {
+    padding-top: 40px;
+}
+.price .box {
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    background: #fff;
+    height: 100%;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+}
+.price .box-extra {
+    padding: 60px 40px;
+    box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+    background: #fff;
+    height: 100%;
+    border-top: 4x solid #47b2e4;
+    border-radius: 5px;
+}
+.price .box .btn {
+    color: rgb(134, 192, 247);
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    border: 1px solid #47b2e4;
+}
+.price .box .btn:hover {
+    background: #47b2e4;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+}
+.price .box-extra .btn-extra {
+    background: #47b2e4;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+}
+
+/* pricing style section End here */
+
+/* FAQ style section start here */
+.faq {
+    background-color: #f3f5fa;
+}
+.faq .faq-accor {
+    padding: 0 100px;
+}
+
+/* FAQ style section start here */
+
+/* Contact style section start here  */
+.btn-send {
+    background: #47b2e4;
+    color: #fff;
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    border: 1px solid #47b2e4;
+}
+
+/* Contact style section start here  */
+
+/* footer style section start here  */
+#footer .footer_newslatter {
+    padding: 50px 0;
+    background: #f3f5fa;
+    text-align: center;
+    font-size: 15px;
+    color: #444444;
+}
+#footer .footer_newslatter form input[type="email"] {
+    padding: 8px 8px;
+    width: 50%;
+    background: #fafdff;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#footer .footer_newslatter form input[type="submit"] {
+    position: absolute;
+    top: - 1;
+    right: 1;
+    bottom: 1;
+    border: none;
+    font-size: 23px;
+    padding: 15 40px;
+    background: #47b2e4;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.footer_bottom {
+    background: #37517e;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    color: #f3f5fa
+}
+.footer_bottom .custom_fa {
+    margin-left: 5px;
+    font-size: 24px;
+}
+
+/* footer style section start here  */
